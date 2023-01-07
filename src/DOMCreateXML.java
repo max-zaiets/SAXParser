@@ -42,7 +42,6 @@ public class DOMCreateXML {
         city.appendChild(buildingNum);
 
 
-
         Element city2 = doc.createElement("city");
         city2.setAttribute("size", "big");
         city2.appendChild(doc.createTextNode("Dnipro"));
